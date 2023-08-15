@@ -1,0 +1,414 @@
+.About{
+    width: 100%;
+    height: auto;
+    padding: 0 10%;
+    margin-bottom: 259px;   
+    margin-top: 50px;
+    .techonol{
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 3vw;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+}
+.reating_box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.reating_about{
+    width: 100%;
+    padding-left: 5.6%;
+
+    display: flex;
+    flex-direction: column;
+    span{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 4vh;
+        padding: 0 3vw;
+        h4{
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 1.5vw;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+        p{
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 0.9vw;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+    }
+
+}
+.reating_resalte{
+    width: 100%;
+    height: 3vh;
+    border-radius: 83px;
+    background: #162950;
+    .reting_in{
+        width: 0%;
+        height: 100%;
+        border-radius: 83px;
+        background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+        
+    }
+    .reting_in_Show{
+        width: 80% !important;
+        height: 100% !important;
+        border-radius: 83px !important;
+        background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%) !important;
+        transition: all 0.7s ease;
+    }
+}
+// *************************************************************
+.reating_about2{
+    width: 100%;
+    padding-left: 5.6%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 20px;
+    span{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 0.8vh;
+        padding: 0 3vw;
+        h4{
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 1.5vw;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+        p{
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 0.9vw;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+    }
+
+}
+.reating_resalte2{
+    width: 100%;
+    height: 3vh;
+    border-radius: 83px;
+    background: #162950;
+
+    
+    .reting_in2{
+        width: 0%;
+        height: 100%;
+        border-radius: 83px;
+        background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+        
+    }
+    .reting_in2_Show{
+        width: 80% !important;
+        height: 100% !important;
+        border-radius: 83px !important;
+        background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%) !important;
+        transition: all 0.9s ease;
+    }
+}
+// *************************************************************
+.reating_about3{
+    width: 100%;
+    padding-left: 5.6%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 20px;
+    span{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 0.8vh;
+        padding: 0 3vw;
+        h4{
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 1.5vw;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+        p{
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 0.9vw;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+    }
+
+}
+.reating_resalte3{
+    width: 100%;
+    height: 3vh;
+    border-radius: 83px;
+    background: #162950;
+
+    
+    .reting_in3{
+        width: 0%;
+        height: 100%;
+        border-radius: 83px;
+        background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+        
+    }
+    .reting_in3_Show{
+        width: 80% !important;
+        height: 100% !important;
+        border-radius: 83px !important;
+        background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%) !important;
+        transition: all 1s ease;
+    }
+}
+// *************************************************************
+.reating_about4{
+    width: 100%;
+    padding-left: 5.6%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 20px;
+
+    span{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 0.8vh;
+        padding: 0 3vw;
+        h4{
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 1.5vw;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+        p{
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 0.9vw;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+    }
+
+}
+.reating_resalte4{
+    width: 100%;
+    height: 3vh;
+    border-radius: 83px;
+    background: #162950;
+
+    
+    .reting_in4{
+        width: 0%;
+        height: 100%;
+        border-radius: 83px;
+        background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+        
+    }
+    .reting_in4_Show{
+        width: 60% !important;
+        height: 100% !important;
+        border-radius: 83px !important;
+        background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%) !important;
+        transition: all 1s ease;
+    }
+}
+// *************************************************************
+.reating_about5{
+    width: 100%;
+    padding-left: 5.6%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 20px;
+    span{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 0.8vh;
+        padding: 0 3vw;
+        h4{
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 1.5vw;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+        p{
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 0.9vw;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+    }
+
+}
+.reating_resalte5{
+    width: 100%;
+    height: 3vh;
+    border-radius: 83px;
+    background: #162950;
+
+    
+    .reting_in5{
+        width: 0%;
+        height: 100%;
+        border-radius: 83px;
+        background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+        
+    }
+    .reting_in5_Show{
+        width: 70% !important;
+        height: 100% !important;
+        border-radius: 83px !important;
+        background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%) !important;
+        transition: all 1.2s ease;
+    }
+}
+// *************************************************************
+.reating_about6{
+    width: 100%;
+    padding-left: 5.6%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 20px;
+
+    span{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 0.8vh;
+        padding: 0 3vw;
+        h4{
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 1.5vw;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+        p{
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 0.9vw;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+    }
+
+}
+.reating_resalte6{
+    width: 100%;
+    height: 3vh;
+    border-radius: 83px;
+    background: #162950;
+
+    
+    .reting_in6{
+        width: 0%;
+        height: 100%;
+        border-radius: 83px;
+        background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+        
+    }
+    .reting_in6_Show{
+        width: 30% !important;
+        height: 100% !important;
+        border-radius: 83px !important;
+        background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%) !important;
+        transition: all 1.2s ease;
+    }
+}
+.text_about{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 4vw;
+}
+.about_reating{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5.6%;
+    margin-top: 82px;
+    ul{
+        flex-grow: 1;
+        li{
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 1.6vw;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            opacity: 0;
+            transform: translateY(100px);
+        }
+        .abouttext{
+            opacity: 1 !important;
+            transform: translateY(0) !important;
+            transition: all 0.4s linear;
+        }
+        .abouttext2{
+            opacity: 1 !important;
+            transform: translateY(0) !important;
+            transition: all 0.5s linear;
+        }
+        .abouttext3{
+            opacity: 1 !important;
+            transform: translateY(0) !important;
+            transition: all 0.6s linear;
+        }
+    }
+}
+@media screen and (max-with: 1200px) {
+    .About{
+        
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin-bottom: 259px;   
+        margin-top: 50px;
+        position: relative;
+        .techonol{
+            position: absolute !important;
+            bottom: 0 !important;
+        }
+    }
+}
