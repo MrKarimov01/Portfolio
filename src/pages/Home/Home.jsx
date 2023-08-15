@@ -6,7 +6,7 @@ import Hero from '../../components/Hero/Hero'
 import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
 import About from '../../components/About/About'
-import Seniority from '../../components/seniority/seniority'
+import Seniority from '../../components/Seniority/Seniority'
 
 function Home() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Seniority.css"
+import "./Seniority.scss"
 
 function Seniority() {
   return (
