@@ -1,5 +1,5 @@
 import React from 'react'
-import "./olma.css"
+import "./Seniority.css"
 
 function Seniority() {
   return (
