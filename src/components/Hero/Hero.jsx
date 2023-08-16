@@ -4,6 +4,7 @@ import { useInView } from "react-intersection-observer";
 function Hero() {
   const { ref: cube, inView: element1 } = useInView();
   const { ref: text, inView: element2 } = useInView();
+  const { ref: tex2, inView: element4 } = useInView();
   const { ref: button, inView: element3 } = useInView();
   return (
     <div className="hero">
@@ -14,8 +15,8 @@ function Hero() {
         Lorem ipsum dolor sit amet
       </h1>
       <p
-        className={element2 ? "hero__text_p title_view" : "hero__text_h1"}
-        ref={text}
+        className={element4 ? "hero__text_p title_view2" : "hero__text_h1"}
+        ref={tex2}
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua.{" "}

@@ -17,6 +17,7 @@
     line-height: normal;
 
 }
+
 .history__about{
     width: 100%;
     display: flex;
@@ -29,6 +30,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    margin-top: 5px;
 }
 .texts__history span{
     flex-grow: 1;
@@ -36,11 +38,12 @@
     color: #FFF;
     text-align: center;
     font-family: Poppins;
-    font-size: 1vw;
+    font-size: 17px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     padding: 0.5vw;
+    transition: all 0.1s linear;
 }
 .year__history{
     display: flex;
@@ -63,7 +66,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-
+    transition: all 0.1s linear;
     text-align: center;
 }
 .line_year{
@@ -112,4 +115,99 @@
     background-color: #FFF;
     position: absolute;
     z-index: 10;
+}
+
+
+.sen_color{
+    color: aqua !important;
+    text-shadow: 0px 0px 10px rgba(0, 255, 255, 0.466);
+    transition: all 0.1s linear;
+}
+.sen_bgcolor{
+    background-color: aqua !important;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.466);
+    transition: all 0.1s linear;
+}
+@media screen and (max-width: 800px) {
+    .seniority{
+        width: 100%;
+        padding:0 10%;
+        margin-top: 0 !important;
+        text-align: center;
+        transform: translateY(-20px);
+    
+    }
+    .num_year span{
+        flex-grow: 1;
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 3vw;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    
+        text-align: center;
+    }
+    
+.Aboutme_text{
+    font-size: 19px;
+    color: #FFF;
+    font-family: Poppins;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.texts__history span{
+    flex-grow: 1;
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 0.5vw;
+    margin-top: 5px;
+}  
+    
+}
+@media screen and (max-width: 480px) {
+    .seniority{
+        width: 100%;
+        padding:0 10%;
+        margin-top: 0 !important;
+        text-align: center;
+        transform: translateY(-20px);
+    
+    }
+    
+.Aboutme_text{
+    font-size: 19px;
+    color: #FFF;
+    font-family: Poppins;
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.texts__history span{
+    flex-grow: 1;
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 0.5vw;
+    margin-top: 5px;
+}  
+    
 }

@@ -14,15 +14,15 @@ function Footer() {
           <div className="call_text">
             <span>
               <span>Call me:</span><br />
-              <span>123-456-789</span>
+              <span>+998-93-425-32-25</span>
             </span>
             <span>
               <span>Email:</span><br />
-              <span>xxx@xyz.com</span>
+              <span><a href="https://mail.google.com/"> RozimuhammadKarimov6002@gmail.com</a></span>
             </span>
           </div>
           <div className="link_icon">
-            <li><a href="#">< AiFillGithub/></a></li>
+            <li><a href="https://github.com/MrKarimov01/">< AiFillGithub/></a></li>
             <li><a href="#">< AiFillLinkedin /></a></li>
             <li><a href="#">< BiLogoFigma /></a></li>
           </div>

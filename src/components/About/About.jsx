@@ -17,7 +17,7 @@ function About() {
     <div className='About'> 
       <h1 className='techonol'>Technologies</h1>
       <div className="reating_box">
-        <div className="reating_about">
+        <div className="reating_about_rum reating_about">
           <span>
             <h4>Html</h4>
             <p>Advanced</p>
@@ -28,7 +28,7 @@ function About() {
           </div>
         </div>
 
-        <div className="reating_about2">
+        <div className="reating_about_rum reating_about2">
           <span>
             <h4>CSS, Sass & Bootstrap</h4>
             <p>Advanced</p>
@@ -37,7 +37,7 @@ function About() {
             <div className={element2?"reting_in2_Show":"reting_in2"} ref={css}></div>
           </div>
         </div>
-        <div className="reating_about3">
+        <div className="reating_about_rum reating_about3">
           <span>
             <h4>JavaScript, JQuery</h4>
             <p>Advanced</p>
@@ -46,7 +46,7 @@ function About() {
             <div className={element3?"reting_in3_Show":"reting_in3"} ref={java}></div>
           </div>
         </div>
-        <div className="reating_about4">
+        <div className=" reating_about_rum reating_about4">
           <span>
             <h4>React</h4>
             <p>Regular</p>
@@ -55,7 +55,7 @@ function About() {
             <div className={element4?"reting_in4_Show":"reting_in4"} ref={react}></div>
           </div>
         </div>
-        <div className="reating_about5">
+        <div className="reating_about_rum  reating_about5">
           <span>
             <h4>UI design in Photoshop</h4>
             <p>Regular</p>
@@ -64,7 +64,7 @@ function About() {
             <div className={element5?"reting_in5_Show":"reting_in5"} ref={photoshop}></div>
           </div>
         </div>
-        <div className="reating_about6">
+        <div className="reating_about_rum reating_about6">
           <span>
             <h4>GitHub</h4>
             <p>Beginner</p>

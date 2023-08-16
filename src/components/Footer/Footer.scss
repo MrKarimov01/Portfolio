@@ -1,7 +1,7 @@
 .Footer{
     width: 100%;
  
-    margin-top: 10vh;
+    margin-top: 5vh;
     display: flex;
     flex-direction: row;
 
@@ -26,19 +26,29 @@
             flex-grow: 1;
             color: #FFF;
             font-family: Poppins;
-            font-size: 2vw;
+            font-size: 28px;
             font-style: normal;
             font-weight: 600;
             line-height: normal;
+
+                margin-right: 2%;
+
         }
         span:last-child{
-            flex-grow: 1;
-            color: #FFF;
-            font-family: Poppins;
-            font-size: 2vw;
-            font-style: normal;
-            font-weight: 600;
-            line-height: normal;
+            a{
+                flex-grow: 1;
+                color: #FFF;
+                font-family: Poppins;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                text-decoration: none;
+                &:hover{
+                    color: aqua; 
+                    text-decoration: underline;
+                }
+            }
             
         }
         
@@ -50,14 +60,14 @@
         flex-direction: row;
         justify-content: flex-end;
         list-style: none;
-
+        margin: 10px;
         align-items: center;
         li{
             width: 4vw;
             height: 4vh;
             margin-right: 3%;
             a{
-                font-size: 3vw;
+                font-size: 26px;
                 color: white;
             }
         }
@@ -72,3 +82,130 @@
     transform:  scale(1) !important;
     transition: all 0.5s linear;
 }
+@media screen and (max-width :1000px) {
+    .Footer{
+        width: 100%;
+     
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: row;
+    
+      
+        align-items: center;
+        padding: 0 13%;
+        .wrapper{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+            opacity: 0;
+            transform:  scale(0);
+           
+        }
+        .call_text{
+            flex-grow: 1;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            span:first-child{
+                flex-grow: 1;
+                color: #FFF;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                
+                    margin-right: 2%;
+             
+            }
+            span:last-child{
+                a{
+                    flex-grow: 1;
+                    color: #FFF;
+                    font-family: Poppins;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    text-decoration: none;
+                    &:hover{
+                        color: aqua; 
+                        text-decoration: underline;
+                    }
+                }
+                
+            }
+            
+        }
+    
+        .link_icon{
+            flex-grow: 1;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            list-style: none;
+            margin: 10px;
+            align-items: center;
+            li{
+                width: 26px;
+                height: 26px;
+                margin-right: 3%;
+                a{
+                    font-size: 26px;
+                    color: white;
+                }
+            }
+        }
+    
+    }
+}
+@media screen and (max-width :730px) {
+    .Footer{
+        width: 100%;
+     
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: row;
+        padding: 0 0 !important;
+    
+      
+        align-items: center;
+        padding: 0 13%;
+        .wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            opacity: 0;
+            transform:  scale(0);
+           
+        }
+        .call_text{
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column  ;
+            justify-content: space-between;
+            margin-left: 2%;
+           
+        }
+    }
+    .link_icon{
+        flex-grow: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        list-style: none;
+        
+        align-items: center;
+        li{
+
+            width: 50px;
+            height: 50px;
+            margin-right: 3%;
+            a{
+                font-size: 50px;
+                color: white;
+            }
+        }
+}}

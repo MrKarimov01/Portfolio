@@ -2,7 +2,7 @@
     background-color: transparent;
     width: 100%;
     position: relative;
-    top: 5vh;
+    top: 4vh;
     height: auto;
     padding-left: 10%;
     z-index: 0;
@@ -16,6 +16,7 @@
         transform: translateX(-200px);
         opacity: 0;
         background-color: transparent;
+        
     }
     .title_view{
         transform: translateX(0) !important;
@@ -23,6 +24,13 @@
         transition: all 0.5s linear !important;
         
     }
+    .title_view2{
+
+        opacity: 1 !important;
+        transition: 0.5s linear;
+        
+    }
+    
     .hero__text_p{
         background-color: transparent;
         color: #BCBCBC;
@@ -33,10 +41,11 @@
         line-height: normal;
         margin-left: 3%;
         width: 51%;
-        transform: translateX(200px);
+
         opacity: 0;
     }
-    button{
+
+     button{
         padding: 19px 64px 19px 63px;
         border-radius: 83px;
         background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
@@ -47,24 +56,28 @@
         font-style: normal;
         font-weight: 600;
         line-height: normal;
-        transition: all 2s ease;
-        &:hover{
-            background: linear-gradient(270deg,#945DD6  0%, #6978D1 66.67%, #13ADC7 100%);
-        }
+
+      
+      
+        
         margin-left: 9%;
         margin-top: 92px;
         margin-bottom: 150px;
         opacity: 0;
-        transform: scale(0);
+        transition: 1s;
+
     }
     .button_view{
         opacity: 1 !important;
         transform: scale(1)!important;
         transition: all 0.5s linear !important;
+        
+        background: linear-gradient(270deg,#945DD6  0%, #6978D1 66.67%, #13ADC7 100%);
+        
     }
     .cube{
-        width: 600px;
-        height: 400px;
+        width: 500px;
+        height: 350px;
 
         position: absolute;
         right: -3%;
@@ -162,21 +175,25 @@
             align-items: center;
             padding: 0 5px;
             z-index: 0;
+            top: 0;
+            button{
+                padding: 10px 30px;
+                font-size: 21px;
+            }
         }
         .hero__text_h1{
-            font-size: 6vw !important;
+            font-size: 28px !important;
             text-align: center;
-            opacity: 0;
-            transform: translateY(-200px);
+            opacity: 1;
         }
         .hero__text_p{
             margin-left: 0 !important;
-
+            transform: translate(0);
             padding: 0;
             text-align: center;
-            font-size: 4vw !important;
-            transform: translateX(200px);
-            opacity: 0;
+            font-size: 22px !important;
+            
+            opacity: 1;
         }
         button{
             margin: 0;
@@ -191,6 +208,12 @@
             transform: translateY(0) !important;
             opacity: 1 !important;
             transition: all 0.5s linear !important;
+            
+        }
+        .title_view2{
+
+            opacity: 1 !important;
+            transition: 0.5s linear;
             
         }
         .button_view{
