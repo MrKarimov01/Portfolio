@@ -1,6 +1,6 @@
 import "./Hero.scss";
 import { useInView } from "react-intersection-observer";
-
+import React from "react";
 function Hero() {
   const { ref: cube, inView: element1 } = useInView();
   const { ref: text, inView: element2 } = useInView();
@@ -8,6 +8,19 @@ function Hero() {
   const { ref: button, inView: element3 } = useInView();
   return (
     <div className="hero">
+      <div className="cat">
+        <div className="ear ear--left"></div>
+        <div className="ear ear--right"></div>
+        <div className="face">
+          <div className="eye eye--left">
+            <div className="eye-pupil"></div>
+          </div>
+          <div className="eye eye--right">
+            <div className="eye-pupil"></div>
+          </div>
+          <div className="muzzle"></div>
+        </div>
+      </div>
       <h1
         className={element2 ? "hero__text_h1 title_view" : "hero__text_h1"}
         ref={text}
@@ -24,6 +37,7 @@ function Hero() {
       <button className={element3 ? "button_view" : ""} ref={button}>
         Let’s begin
       </button>
+
       <div className={element1 ? "cube cube_view" : "cube"} ref={cube}>
         <div className="cube1">
           <div className="cube1_1"></div>

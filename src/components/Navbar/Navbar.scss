@@ -1,12 +1,14 @@
 .Navbar{
     width: 100%;
-    height: 130px;
+    height: 90px;
+    background: #0F1624;
 
     position: relative;
-    background-color: #0F1624;
+    margin-bottom: 50px;
     nav{
+        background: #0F1624;
         width: 100%;
-      height: 130px;
+        height: 90px;
         position: fixed;
         top: 0;
         width: 100%;
@@ -111,13 +113,13 @@
             .nav_line_bottom{
                 width: 100%;
                 position: absolute;
-                bottom: -0;
+                bottom: 0;
                 height: 1px;
                 background-color: rgba(128, 128, 128, 0.45);
                 box-shadow: 0px 20px 15px -10px rgba(128, 128, 128, 0.45);    
             }
         }
-        
+ 
         .icon{
             flex-grow: 1;
             display: flex;
@@ -149,11 +151,17 @@
     transform: translateY(0) !important;
     transition: all 0.5s linear;
 }
+#navbackground{
+    background: transparent;
+    backdrop-filter: blur(10px);
+    transition: all 0.2s linear;
+}
 .hamburger{
     display: none;
 }
 
 @media screen and (max-width: 1200px) {
+
   
     .nav-bar{
         display: none !important;
@@ -163,7 +171,7 @@
     }
     nav{
         position: fixed;
-        top: -30px !important;
+        
         width: 100%;
         display: flex;
         
@@ -172,7 +180,7 @@
         justify-content: space-between;
         margin-top: 0;
         opacity: 0;
-
+        top: 0 !important;
         padding-right: 6%;
         overflow: visible;
     }
@@ -184,13 +192,15 @@
     .nav-phone{
         transform: translateX(0%) ;
         opacity: 1;
-        display: flex;
+     
         position: fixed;
         
         width: 100%;
         height:100vh;
         z-index: 100;
-        background-color: #0F1624;
+        
+        backdrop-filter: blur(10px);
+        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -210,7 +220,7 @@
 
             
             li{
-                margin: 20px;
+                margin-top: 20px;
                 border-bottom: 2px solid ;
                 a{
                     text-decoration: none;
@@ -290,6 +300,22 @@
         flex-grow: 1;
         margin-left: 6% ;
         text-decoration: none;
+    }
+    .logo_phone{
+        border: 0 !important;
+        .logo_phone_in{
+           
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items:center;
+            img{
+                width: 6vw;
+                height: 6vw;
+                margin-right: 5px;
+            }
+        }
+        
     }
             
 }

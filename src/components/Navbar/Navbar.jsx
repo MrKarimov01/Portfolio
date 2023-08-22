@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React,{ useEffect, useState } from "react";
 import "./Navbar.scss";
 import logo from "./../../assets/images/logo.svg";
 import { AiFillGithub } from "react-icons/ai";
@@ -19,17 +19,23 @@ function Navbar() {
   const { ref: nav, inView: element1 } = useInView();
   console.log(ham);
   const changeBackground = () => {
-    if (window.scrollY >= 100) {
+    if (window.scrollY >= 50) {
       setBackground(true);
-    } else if (window.scrollY <= 100) {
+    } else if (window.scrollY <= 50) {
       setBackground(false);
     }
   };
+  console.log();
+
   window.addEventListener("scroll", changeBackground);
 
   return (
     <div className="Navbar">
-      <nav ref={nav} className={element1 ? "nav_show" : ""}>
+      <nav
+        ref={nav}
+        className={element1 ? "nav_show" : ""}
+        id={background ? "navbackground" : ""}
+      >
         <Link to={"/"} className="logo">
           <img src={logo} />
           Portfolio
@@ -82,6 +88,12 @@ function Navbar() {
           onClick={() => setHam(false)}
         />
         <ul className="nav-bar-phone">
+          <li className="logo_phone">
+            <Link to={"/"} className="logo_phone_in">
+              <img src={logo} />
+              Portfolio
+            </Link>
+          </li>
           <li>
             <NavLink to={"projects"} className="Nav_Link">
               Projects
